@@ -1,5 +1,5 @@
 # Chatbot for College
-# Chatbot name Shinomiya
+# Chatbot
 import random
 
 # Chatbot exit condition
@@ -29,7 +29,7 @@ def chatbot_response(user_questions):
     
     user_questions = user_questions.upper()
     breakdown = list(user_questions.split(' '))
-    print("Shinomiya:",end=" ")
+    print("Chatbot:",end=" ")
     
     if 'FACILITIES' in breakdown or 'FACILITY' in breakdown:
         print(random.choice(FACILITIES))
@@ -58,7 +58,7 @@ def chatbot_response(user_questions):
 
 
 # Chatbot greetings
-print("--------------Shinomiya---------------")
+print("--------------Chatbot---------------")
 print("Hello and Greetings, I'm a Chatbot from College.")
 print("How may I help you?")
 
