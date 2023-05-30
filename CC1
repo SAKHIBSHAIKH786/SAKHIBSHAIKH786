@@ -7,8 +7,8 @@ ls
 clear 
 ls
 
-
-Copy 2 commands from enstance 
+after this enter chmod command from instance
+Copy 2 commands from instance 
 
 which python
 python3 --version
