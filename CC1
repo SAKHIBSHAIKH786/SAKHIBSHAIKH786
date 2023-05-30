@@ -1,0 +1,19 @@
+cd Downloads 
+ls
+rm test.pem
+ls
+cd S20111047
+ls
+clear 
+ls
+
+
+Copy 2 commands from enstance 
+
+which python
+python3 --version
+nano filename.py
+print("Hello this is python program")
+print("Here you can type any python code")             control X then Y
+ls
+python3 filename.py 
